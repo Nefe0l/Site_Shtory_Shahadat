@@ -1,0 +1,51 @@
+@media screen and (max-width: 900px) {
+  /* Header */
+  header {
+    justify-content: space-evenly;
+  }
+
+  /* Burger/Menu */
+  header .Menu {
+    display: none;
+  }
+  header .Burger_object {
+    display: inline;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 1%;
+  }
+  header .Burger_object span {
+    font-size: calc(25px + 10 * (100vw / 1200));
+  }
+  header nav.Active_Nav .Menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -30%;
+  }
+
+  /* Triggers */
+  header .Span_Close_Trigger {
+    position: static;
+    display: none;
+  }
+  header .Burger_object.Active .Span_Close_Trigger {
+    display: inline;
+  }
+  header .Burger_object.Active .Span_Open_Trigger {
+    display: none;
+  }
+  header .Header_div_h1_ObjectNameTheSite {
+    margin-right: 30%;
+  }
+
+  /* Dark Mode */
+  .dark .Burger_object {
+    color: rgb(255, 255, 255);
+  }
+
+  /* Span/Icons */
+  header .Header__Span {
+    display: none;
+  }
+}
