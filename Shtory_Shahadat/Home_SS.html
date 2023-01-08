@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="./Style_Home_SS_Light.Css" />
+    <link rel="stylesheet" href="./Style_Home_SS_Dark.Css" />
+    <link rel="stylesheet" href="./Adaptation_Home_SS.Css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="Header_div_h1_ObjectNameTheSite">
+        <h1 class="Header_h1_NameTheSite">𝓢𝓱𝓽𝓸𝓻𝔂 𝓢𝓱𝓪𝓱𝓪𝓭𝓪𝓽</h1>
+      </div>
+      <Burger_object class="Burger_object">
+        <span class="Span_Open_Trigger"
+          ><ion-icon name="menu-outline"></ion-icon
+        ></span>
+        <span class="Span_Close_Trigger"
+          ><ion-icon name="close-outline"></ion-icon
+        ></span>
+      </Burger_object>
+      <nav>
+        <menu class="Menu">
+          <a href="" class="Header__Not_A">Главная</a>
+          <a href="" class="This_is_a">O сайте</a>
+          <a href="" class="This_is_a">Каталог</a>
+          <a href="" class="This_is_a">Новости</a>
+        </menu>
+      </nav>
+      <span class="Header__Span"
+        ><ion-icon name="moon-outline" class="Header_Icon_1"></ion-icon>
+        <ion-icon name="sunny-outline" class="Header_Icon_2"></ion-icon
+      ></span>
+    </header>
+    <div class="Square"></div>
+    <main>
+      <div class="Main_Container">
+        <div class="Main_Container__Text">
+          <h1 style="font-family: sans-serif; opacity: 1" class="Main__Text_h1">
+            Добро пожаловать в сайт
+          </h1>
+          <div class="Square_Ad"></div>
+          <h2 style="font-family: sans-serif" class="Main__Text_h2">
+            Shtory_Shahadat
+          </h2>
+          <a href="#" class="Main__Text_A">Подробнее</a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./anime.min.js"></script>
+  <script src="./Script.js"></script>
+  <script>
+    // Anime_Main
+    function animate() {
+      anime({
+        targets: ".Square",
+        translateX: function () {
+          return anime.random(-100, 100);
+        },
+        translateY: function () {
+          return anime.random(-100, 100);
+        },
+        scale: function () {
+          return anime.random(1, 2);
+        },
+        easing: "easeInOutBack",
+        duration: 3000,
+        delay: anime.stagger(3),
+        complete: animate,
+      });
+    }
+    animate();
+  </script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
