@@ -1,0 +1,149 @@
+/* Dark/mode */
+
+/* Diff.. */
+* {
+  transition: all 0.2s;
+}
+html.dark,
+.dark body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(55, 49, 49);
+}
+.dark h1 {
+  color: rgb(255, 255, 255);
+}
+.dark h2 {
+  color: rgb(255, 255, 255);
+}
+
+/* Nav */
+.dark header nav a {
+  color: rgb(255, 255, 255);
+}
+.dark header nav a:hover {
+  color: rgb(187, 181, 181);
+}
+.dark .Header__Not_A > a {
+  color: rgb(187, 181, 181);
+  cursor: default;
+}
+
+/* Header */
+.dark header {
+  border-bottom: 3px solid rgba(210, 170, 170, 0.706);
+  background-color: rgba(82, 76, 76, 0.648);
+  box-shadow: 0 20px 25px -5px rgb(134, 127, 127);
+}
+
+/* Span/Icons */
+.dark .Header__Span {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 5px;
+  transition: rotate 0.3s, margin-top 0.3s;
+}
+.dark .Header__Span .Header_Icon_1 {
+  display: none;
+  transition: 0.3s;
+}
+.dark .Header__Span .Header_Icon_2 {
+  display: block;
+  transition: 0.3s;
+}
+
+.dark .Square {
+  background-color: rgba(0, 0, 0, 0.561);
+}
+
+/* Article Container */
+.dark .Article__Name_Container__Div_Div {
+  background-color: rgb(255, 255, 255);
+}
+.dark .Article__Name_Container__Icon_Div {
+  color: rgb(255, 255, 255);
+}
+
+/* Scroll/style */
+
+.dark ::-webkit-scrollbar-track {
+  background: rgb(44, 42, 42);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgb(173, 217, 107);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.459);
+}
+
+/* Swiper_№1 Buttons */
+.dark .Next,
+.dark .Prev {
+  color: rgb(254, 254, 254);
+}
+
+/* close-circle/caret-forward-circle */
+.dark .close-circle {
+  color: rgb(255, 255, 255);
+}
+.dark .caret-forward-circle {
+  color: rgb(255, 255, 255);
+}
+
+/* Block___types/dark */
+.dark .Block___types .Card__n1 .Card__n1_text_div .N1_h1_div {
+  color: rgb(255, 255, 255);
+}
+.dark .Block___types .Card__n1 .Card__n1_text_div .N1_a_div:hover {
+  color: rgb(255, 255, 255);
+}
+.dark .Block___types .Card__n1 .Card__n1_text_div hr {
+  background: rgb(255, 255, 255);
+}
+.dark .Block___types .Card__n1 .Card__n1_text_div .N1_a_div {
+  color: rgba(0, 0, 0, 0.778);
+}
+
+/* Scroll_Function/dark */
+.dark header.Scroll_function {
+  background-color: rgb(55, 49, 49);
+}
+
+/* Article__Name_Container__Div_2_Div */
+.dark .Article__Name_Container__Div_2_Div {
+  background-color: rgb(255, 255, 255);
+}
+.dark video::-webkit-textfield-decoration-container {
+  color: rgb(0, 0, 0);
+}
+
+/* .Text_Container */
+.Text_Container__H1 {
+  color: rgb(0, 0, 0);
+}
+
+/* Footer__container_link_div */
+.dark footer .Footer__container_link_div ul li > a {
+  color: rgb(255, 255, 255);
+}
+.dark footer .Footer__container_link_div ul li > a:hover {
+  color: rgb(187, 181, 181);
+}
+.dark footer .Footer__container_link_div .Header__Not_A > a {
+  color: rgb(119, 97, 97);
+}
+/* .Footer__container_text_div */
+.dark footer .Footer__container_text_div {
+  color: rgb(255, 255, 255);
+  transition: all 0.1s;
+}
+
+/* Eror_C0de */
+.dark .Eror_Code_h1 {
+  color: rgb(255, 255, 255);
+}
