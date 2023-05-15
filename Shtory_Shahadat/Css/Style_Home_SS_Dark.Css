@@ -1,9 +1,6 @@
 /* Dark/mode */
 
 /* Diff.. */
-* {
-  transition: all 0.2s;
-}
 html.dark,
 .dark body {
   margin: 0;
@@ -100,13 +97,13 @@ html.dark,
   color: rgb(255, 255, 255);
 }
 .dark .Block___types .Card__n1 .Card__n1_text_div .N1_a_div:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .dark .Block___types .Card__n1 .Card__n1_text_div hr {
   background: rgb(255, 255, 255);
 }
 .dark .Block___types .Card__n1 .Card__n1_text_div .N1_a_div {
-  color: rgba(0, 0, 0, 0.778);
+  color: rgba(255, 255, 255, 0.778);
 }
 
 /* Scroll_Function/dark */

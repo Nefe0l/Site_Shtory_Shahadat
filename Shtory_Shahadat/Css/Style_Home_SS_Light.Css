@@ -412,7 +412,7 @@ video {
 }
 .Block___types .Card__n1 .Card__n1_text_div .N1_h1_div {
   font-size: 2em;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .Block___types .Card__n1 .Card__n1_text_div .N1_a_div {
   font-size: 2.3em;
@@ -425,11 +425,11 @@ video {
   transition: 0.5s ease;
 }
 .Block___types .Card__n1 .Card__n1_text_div .N1_a_div:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background-color: orange;
 }
 .Block___types .Card__n1 .Card__n1_text_div hr {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   border: none;
   width: 100%;
   height: 3px;

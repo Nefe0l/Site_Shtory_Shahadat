@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>О сайте</title>
+    <title>News</title>
     <!-- Icon -->
     <link rel="icon" href="./Imgs/Logo_link.png" />
     <!-- Styles -->
-    <link rel="stylesheet" href="./Css/Style_About_Site.Css" />
+    <link rel="stylesheet" href="./Css/Style_News_Site.css" />
     <link rel="stylesheet" href="./Css/Style_Home_SS_Light.Css" />
     <link rel="stylesheet" href="./Css/Style_Home_SS_Dark.Css" />
     <link rel="stylesheet" href="./Css/Adaptation_Home_SS.Css" />
@@ -60,13 +60,13 @@
                   <li class="This_is_a">
                     <a href="./Home_SS.html">Главная</a>
                   </li>
-                  <li class="Header__Not_A">
-                    <a href="#">O сайте</a>
+                  <li class="This_is_a">
+                    <a href="./About_Site.html">O сайте</a>
                   </li>
                   <li class="This_is_a">
                     <a href="#">Каталог</a>
                   </li>
-                  <li class="This_is_a">
+                  <li class="Header__Not_A">
                     <a href="./News_Site.html">Новости</a>
                   </li>
                 </ul>
@@ -80,17 +80,18 @@
         <ion-icon name="sunny-outline" class="Header_Icon_2"></ion-icon
       ></span>
     </header>
-    <!-- Text_About_Site -->
-    <meta name="Text_About_Site" content="It's just a Text_About_Site." />
-    <div class="Div_Container_Footer">
-      <div class="Text_Container">
-        <div class="Container">
-          <h2 style="font-family: sans-serif">
-            Данный сайт разработан одним человеком, сайт посвящен для штор. Вы
-            можете посмотреть наши свежие новости на сайте или выбрать
-            подходящие шторы для вас! Мы стараемся для вас делать всего
-            наилучшего!
-          </h2>
+    <!-- News -->
+      <div class="Div_Container_Footer">
+      <div class="Article_Container">
+        <div class="Article_Container__Text">
+          <h1 style="font-family: sans-serif; font-size: 2.3em">
+            Что нового обновления 2.1?
+          </h1>
+          <ul>
+            <li>Исправление багов</li>
+            <li>Добавление нового ссылки: News/Новости</li>
+            <li>Улучшение адаптивности</li>
+          </ul>
         </div>
       </div>
       <!-- Footer -->
@@ -129,6 +130,7 @@
             </ul>
           </div>
         </div>
+      </div>
       </footer>
     </div>
   </body>
@@ -141,11 +143,4 @@
     nomodule
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
   ></script>
-  <script>
-    // ScrollFunction
-    window.addEventListener("scroll", function () {
-      var header = document.querySelector("header");
-      header.classList.toggle("Scroll_function", window.scrollY > 0);
-    });
-  </script>
 </html>

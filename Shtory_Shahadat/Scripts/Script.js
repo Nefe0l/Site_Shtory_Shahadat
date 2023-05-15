@@ -89,8 +89,8 @@ for (var i = 1; i <= 10; i++) {
 
 //* Scroll_Function *//
 window.addEventListener("scroll", function () {
-    var h1 = document.querySelector("header");
-    h1.classList.toggle("Scroll_function", window.scrollY > 0);
+    var header = document.querySelector("header");
+    header.classList.toggle("Scroll_function", window.scrollY > 0);
   });
 
 

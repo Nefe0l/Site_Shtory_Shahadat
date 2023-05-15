@@ -1,4 +1,4 @@
-/* Max-width 950px */
+/* Max-width 1000px */
 @media screen and (max-width: 1000px) {
   /* Diff... */
   * {
@@ -197,13 +197,6 @@
   .Block_For_Img {
     width: 100%;
   }
-  /* Block___types/Adaptation */
-  .Block___types .Card__n1 {
-    width: calc(153px + 180 * (100vw / 1200));
-  }
-  .Block___types .Card__n1 .N1_img_div {
-    width: calc(153px + 180 * (100vw / 1200));
-  }
 }
 @media screen and (max-width: 300px) {
   /* Footer */
@@ -251,6 +244,22 @@
   }
 }
 
+@media screen and (max-width: 350px) {
+  .Block___types .Card__n1 {
+    width: calc(250px + 100 * (100vw / 1200));
+  }
+  .Block___types .Card__n1 .N1_img_div {
+    width: calc(250px + 100 * (100vw / 1200));
+  }
+}
+@media screen and (max-width: 275px) {
+  .Block___types .Card__n1 {
+    width: calc(180px + 100 * (100vw / 1200));
+  }
+  .Block___types .Card__n1 .N1_img_div {
+    width: calc(180px + 100 * (100vw / 1200));
+  }
+}
 /* Eror/Code */
 @media screen and (max-width: 200px) {
   .Eror_Code_h1 {
